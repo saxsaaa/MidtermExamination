@@ -8,37 +8,153 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>MSEUF Portal</title>
 </head>
+<style>
+    .foot{
+        background-color: #680000;
+        height:110px;
+        margin-top:-30px;
+    }
+    .line-1 {
+        height: 15px;
+        background: #F65503;
+    }
+    .line-2 {
+        height: 2px;
+        background: #680000;
+        margin-top:-5px;
+    }
+    .line-3 {
+        height: 2px;
+        background: #000000;
+        margin-top:-5px;
+    }
+    .line-4 {
+        height: 1px;
+        background: #e0dede;
+        margin-top:-5px;
+        width:90%;
+        margin-left: 15px;
+    }
+    .clmarg{
+        margin-left:385px;
 
+    }
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    .cc{
+        margin-left:-12px;
+        background-color: #680000;
+    }
+    .select{
+        height:65px;
+        width:97%;
+        margin-left: 10px;
+        margin-top:-2px;
+        background-color: #680000;
+        outline: none;
+        border: 0px solid;
+    }
+    .select:hover{
+        background-color: red;
+    }
+    .bgggg{
+        background-color: #680000;
+    }
+    .required:after {
+    content:"  http://bookmseuf.setmore.com.";
+    color: red;
+  }
+
+</style>
 <body>
-    <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <br><br><br><br>
-        <div class="container">
+    <div class="bgggg">
+        <div class="cc container-fluid">
             <div class="row">
                 <div class="col">
-                    <h1><i class="bi bi-grid-fill" style="color:rgb(70, 12, 17);"></i>&nbsp; Welcome to myMSEUF Portal!</h1>
-                    <hr>
-                    <p style="text-align:left">Please select user type</p>
-                    <div class="d-grid gap-1">
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Admission</button>
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Online Payment (Exclusive for payments thru Dragonpay)</button>
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Basic Education (K to 10)</button>
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Senior High</button>
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> College/Graduate School/ETEEAP/Law</button>
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Faculty/Employee</button>
-                        <button class="btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Candelaria - Student Information System</button>
-                     </div>
+                    <div class="header">
+                        <img src="https://portal.mseuf.edu.ph/content/Images/headerbg.png">
+                    </div> 
                 </div>
-                <div class="col">
-                    Announcement
+                <div class="col-6">
+                    <h4 style="margin-top: 50px;color:white; font-size:18px;">Manuel S. Enverga University Foundation</h4>
+                    <h5 style="margin-top: -15px;color:white; font-size:16px">Lucena City, Philippines</h5>       
+                </div>
+                <div class="col-3">
+                    <h5 style="margin-top: 50px;color:white">Home &nbsp; Help</h5>
                 </div>
             </div>
         </div>
-        <div class="card-footer text-muted">
-          2 days ago
+    </div>
+    <div class="line-1"></div>
+        <br><br><br>
+        <div class="clmarg container">
+            <div class="row ">
+                <div class="col-7">
+                    <h1 style="color:#680000;"><i class="bi bi-grid-fill" style="color:#680000;;"></i>&nbsp; Welcome to myMSEUF Portal!</h1>
+                    <div class="line-2"></div>
+                    <h5 style="text-align:left;margin-top:-2px;color:#680000;">Please select user type</h5>
+                    <br>
+                    <div class="d-grid gap-1">
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Admission</button>
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Online Payment (Exclusive for payments thru Dragonpay)</button>
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Basic Education (K to 10)</button>
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Senior High</button>
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> College/Graduate School/ETEEAP/Law</button>
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Faculty/Employee</button>
+                        <button class="select btn btn-danger btn-lg" type="button" style="text-align:left"><i class="bi bi-person-fill"></i> Candelaria - Student Information System</button>
+                     </div>
+                </div>
+                <div class="col-3 col-md-4">
+                    <h5 style="margin-top: -15px;color:rgb(54, 52, 52); font-size:18px; font-weight: bold;"><i class="bi bi-megaphone-fill"></i> Book your appointment</h5>
+                    <div class="line-3"></div>
+                        <div style="font-size: 14px; margin-top: 10px; margin-bottom: 10px; padding-top: 10px; padding-bottom: 1px; padding-left: 10px; border-radius: 10px; background: #f9faeb; font-weight: bold;">
+                            <p class="required"><i class="bi bi-info-circle-fill"></i> The university encourages you to do all transactions online. However, if you need to visit the campus, please set your appointment at</p>
+                        </div>
+                        <br>
+                        <h5 style="margin-top: -15px;color:rgb(54, 52, 52); font-size:18px; font-weight: bold;">Enrollment Schedule</h5>
+                        <div class="line-3"></div>
+                        <div class="row">
+                            <div class="col-3">
+                               <p style="text-align:center;font-size: 16px;margin-top: 13px; margin-left: 14px;font-style: italic;"> January 3,<br> 2021</p> 
+                               
+                            </div>
+                            <div class="col-8">
+                                <p style="font-weight: bold;font-size: 16px;margin-top: 13px;"> Second Semester School Year 21-22</p>
+                                <p style="font-size: 16px;margin-top: -18px;">College/Graduate School/ETEEAP/ELS </p>
+                            </div>
+                            <div class="line-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                               <p style="text-align:center;font-size: 16px;margin-top: 13px; margin-left: 14px;font-style: italic;"> January 3,<br> 2021</p> 
+                               
+                            </div>
+                            <div class="col-8">
+                                <p style="font-weight: bold;font-size: 16px;margin-top: 13px;"> Second Semester School Year 21-22</p>
+                                <p style="font-size: 16px;margin-top: -18px;">College/Graduate School/ETEEAP/ELS </p>
+                            </div>
+                            <div class="line-4"></div>
+                        </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <br><br>
+        <div class="foot card-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                    
+                    </div>
+                    <div class="col-6">
+                        <p style=font-size:14px;text-align:right;color:white;margin-top:20px;">System Development Team. Information and Communications Technology Department<br>
+                            Manuel S. Enverga University Foundation</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    
 </body>
 </html>
